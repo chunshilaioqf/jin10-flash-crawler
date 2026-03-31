@@ -179,7 +179,7 @@ async def capture_with_playwright():
                     pass
                 
                 # 监听15秒
-                await asyncio.sleep(15)
+                await asyncio.sleep(5)
                 
                 # 处理消息
                 new_count = 0
